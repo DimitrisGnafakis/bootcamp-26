@@ -1,8 +1,11 @@
-print('hello')
-pi = 3.14
-r = 5
+age = 10
 
-print('pi: ' + pi)
-print('r : ' + r )
-
+if age >= 30 :
+   print("something something")
+elif age >= 21: 
+   print("You are an adult")
+elif age >= 18:
+   print("you are almost an adult")
+else:
+   print("You are a minor")
 
