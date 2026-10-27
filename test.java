@@ -1,11 +1,14 @@
 public class test{
 	public static void main(String... args){
-      int year = 2026;
-		System.out.println(year % 4);
+      int age = 10;
+      if (age >=21){
+         System.out.println("You are an adult");
+      } else if ( age >=18 ) {
+         System.out.println("you are almost an adult");
+      } else {
+         System.out.println("you are a child");
+      }
 	}
 }
 
 
-
-not >
-<
