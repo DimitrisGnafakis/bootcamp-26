@@ -7,11 +7,10 @@ public class test{
       
 	}
    public static int factorial(int n){
-      int result=1;
-      for (int i=1;i<=n;i++){
-         result = result * i;
+      if (n == 1){
+         return 1;
       }
-      return result;
+      return n * factorial(n-1);
    }
 }
 
