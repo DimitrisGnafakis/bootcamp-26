@@ -4,7 +4,9 @@ public class test{
         
       String name = "George";
       System.out.println(name);
-      for (i=10; i>=0; i--) 
+         
+      // System.out.println(i%5);
+      for (i=5; i>=0; i--) 
          System.out.println(i);
 	}
 }
