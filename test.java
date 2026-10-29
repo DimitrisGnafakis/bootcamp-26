@@ -3,7 +3,7 @@ public class test{
       int i = 1;
          
       // System.out.println(i%5);
-      for (i=10; i>=0; i--) 
+      for (i=5; i>=0; i--) 
          System.out.println(i);
 	}
 }
