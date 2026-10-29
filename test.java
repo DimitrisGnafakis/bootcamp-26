@@ -2,7 +2,7 @@ public class test{
 	public static void main(String... args){
       int i = 1;
         
-      String name = "Johnny";
+      String name = "Jimmy";
       System.out.println(name);
          
       // System.out.println(i%5);
