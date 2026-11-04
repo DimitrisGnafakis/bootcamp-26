@@ -4,7 +4,7 @@ public class sort {
         int[] arr = { 5, 2, 9, 1, 5, 6 };
         bubbleSort(arr);
         for (int num : arr) {
-            System.out.print(num + " ");
+            System.out.print(num + " \n");
         }
     }
 
